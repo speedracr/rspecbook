@@ -15,6 +15,11 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.6.0'
+  gem 'factory_girl_rails', '~> 4.8.0'
+  gem 'faker', '~> 1.8.4'
+  gem 'database_cleaner', '~> 1.6.1'
+  gem 'launchy', '~> 2.4.3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13.0'
   gem 'selenium-webdriver'
