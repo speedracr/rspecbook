@@ -13,6 +13,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.6.0'
@@ -34,8 +37,3 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'bootstrap-sass'
-gem 'jquery-rails'
-gem 'devise'
-gem 'gravatar_image_tag'
-gem 'paperclip'
